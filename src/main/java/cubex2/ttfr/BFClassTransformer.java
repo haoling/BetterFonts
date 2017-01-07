@@ -8,7 +8,7 @@ import java.util.ListIterator;
 
 public class BFClassTransformer implements IClassTransformer, Opcodes
 {
-    private final String FontRendererObf = "bfe";
+    private final String FontRendererObf = "bfg";
     private final String ResourceLocationObf = "kq";
 
     private static final String FIELD_ENABLED = "bf_enabled";
